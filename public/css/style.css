@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roobert", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -76,9 +76,8 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
@@ -205,6 +204,7 @@ a:focus,
 }
 /* Header Section */
 .intro {
+  height: 100%;
   display: table;
   width: 100%;
   padding: 0;
@@ -214,9 +214,6 @@ a:focus,
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
-.intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -614,4 +611,17 @@ label {
   padding-top: 10px;
   transform: translateY(2px);
   margin-right: 20px;
+}
+
+h1 {
+  font-size: 40pt;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+#about, #goals, #ecosystem {
+  margin-top: 30px;
 }

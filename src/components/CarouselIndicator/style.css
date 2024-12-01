@@ -2,22 +2,34 @@
 }
 
 .carousel-indicator .arrow img {
-    width: 11px;
-    height: 11px;
+  width: 11px;
+  height: 11px;
+  margin: 5px;
 }
 
 .carousel-indicator .indicator {
-    width: 65px;
-    border-top: 1px solid red;
-    color: red;
+  width: 65px;
+  border-top: 1px solid #d6d4d5;
+  color: #d6d4d5;
 }
 
 .carousel-indicator .indicators {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .carousel-indicator .indicator.selected {
-    border-color: black;
-    color: black;
+  border-color: #5a5657;
+  color: #5a5657;
+}
+
+.carousel-indicator.white .indicator {
+  width: 65px;
+  border-top: 1px solid #5A5657;
+  color: #5A5657;
+}
+
+.carousel-indicator.white .indicator.selected {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
 }

@@ -13,6 +13,9 @@ import "./App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Goals } from "./components/goals";
 import { Ecosystem } from "./components/Ecosystem";
+import { Events } from "./components/Events";
+import { EventSpaces } from "./components/EventSpaces";
+import { Blogs } from "./components/Blogs";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -31,12 +34,15 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Goals data={landingPageData.Goals} />
-      <Ecosystem data={landingPageData.Ecosystem} />    
-      <Services data={landingPageData.Services} />
+      <Ecosystem data={landingPageData.Ecosystem} />   
+      <Events></Events> 
+      <EventSpaces></EventSpaces>
+      <Blogs></Blogs>
+      {/* <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      <Team data={landingPageData.Team} /> */}
+      {/* <Contact data={landingPageData.Contact} /> */}
     </div>
   );
 };
