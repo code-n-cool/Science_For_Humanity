@@ -1,22 +1,14 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title1": "SCIENCE FOR",
+    "title2": "HUMANITY",
+    "paragraph": "FROM DISCOVERIES TO INVENTIONS"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "header": {
+      "title": "What is our goal",
+      "content": "We want to help solve the world’s biggest challenges through deep tech. We believe Scientist makes the best entrepreneurs. "
+    }
   },
   "Gallery": [
     {
@@ -180,5 +172,32 @@
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
-  ]
+  ],
+  "Goals": {
+    "images": ["/img/carousel/img-1.png", "/img/carousel/img-2.png", "/img/carousel/img-3.png"]
+  },
+  "Ecosystem": {
+    "header": {
+      "title": "Our ecosystem",
+      "content": "“Science Creates brings a new component to the Bristol cluster: Science. No longer do science start-ups have to look elsewhere.”"
+    },
+    "customer": {
+      "avatar": "/img/ecosystem/avatar.png",
+      "name": "David May",
+      "job": "Professor of Computer Science",
+      "universityLogo": "/img/ecosystem/university logo.png"
+    }
+  },
+  "Events": {
+    "header": {
+      "title": "Events",
+      "content": "Mark your calendar and join ScienceCreates in celebrating deep tech innovations and learning"
+    }
+  },
+  "KnowledgeHub": {
+    "header": {
+      "title": "Knowledge Hub",
+      "content": "Keep up to date with ScienceCreates latest news and articles."
+    }
+  }
 }

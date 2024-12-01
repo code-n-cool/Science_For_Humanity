@@ -1,0 +1,23 @@
+.carousel-indicator {
+}
+
+.carousel-indicator .arrow img {
+    width: 11px;
+    height: 11px;
+}
+
+.carousel-indicator .indicator {
+    width: 65px;
+    border-top: 1px solid red;
+    color: red;
+}
+
+.carousel-indicator .indicators {
+    display: flex;
+    gap: 20px;
+}
+
+.carousel-indicator .indicator.selected {
+    border-color: black;
+    color: black;
+}
