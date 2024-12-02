@@ -1,63 +1,37 @@
 import { useState } from "react";
 import { CarouselIndicator } from "./CarouselIndicator";
 import { CarouselViewer } from "./CarouselViewer";
+import "./goals.css"; // Import dedicated CSS for this component
+
 export const Goals = (props) => {
   const [current, setCurrent] = useState(0);
 
   return (
     <div id="goals">
       {props.data && (
-        <div>
-          <div style={{ float: "right", marginRight: "20%" }}>
+        <div className="goals-container">
+          <div className="carousel-indicator-container">
             <CarouselIndicator
               value={current}
-              setValue={(value) => {
-                setCurrent(value);
-              }}
+              setValue={(value) => setCurrent(value)}
               content={["01", "02", "03"]}
-            ></CarouselIndicator>
+            />
           </div>
           <CarouselViewer
-            content={[
+            content={props.data.images.map((image, index) => (
               <img
-                style={{
-                  backgroundColor: "red",
-                  width: "100%",
-                  height: "100%",
-                }}
-                src={props.data.images[0]}
-              ></img>,
-              <img
-                style={{
-                  backgroundColor: "yellow",
-                  width: "100%",
-                  height: "100%",
-                }}
-                src={props.data.images[1]}
-              ></img>,
-              <img
-                style={{
-                  backgroundColor: "blue",
-                  width: "100%",
-                  height: "100%",
-                }}
-                src={props.data.images[2]}
-              ></img>,
-              // <img
-              //   style={{
-              //     backgroundColor: "green",
-              //     width: "100%",
-              //     height: "100%",
-              //   }}
-              //   src={props.data.images[3]}
-              // ></img>,
-            ]}
+                className="carousel-image"
+                key={index}
+                src={image}
+                alt={`Goal image ${index + 1}`}
+              />
+            ))}
             width="100%"
             height="30vw"
             itemWidth="40%"
             itemDeltaWidth={50}
             current={current}
-          ></CarouselViewer>
+          />
         </div>
       )}
     </div>

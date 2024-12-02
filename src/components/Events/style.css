@@ -1,0 +1,57 @@
+/* Event Container */
+.event-container {
+    width: 100%;
+    border: 20px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+  }
+  
+  /* Event Image */
+  .event-image {
+    width: 100%;
+  }
+  
+  /* Event Details */
+  .event-details {
+    width: 100%;
+    height: 16vw;
+    position: relative;
+  }
+  
+  /* Event Button */
+  .event-button {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    width: 103px;
+    height: 33px;
+    font-size: 9px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* External Link Icon */
+  .event-external-link {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  
+  /* Event Content */
+  .event-content {
+    padding: 80px 30px;
+  }
+
+  /* Events Container */
+.events-container {
+    margin: 30px;
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+  }
+  

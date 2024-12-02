@@ -37,7 +37,7 @@ const App = () => {
       <Ecosystem data={landingPageData.Ecosystem} />   
       <Events></Events> 
       <EventSpaces></EventSpaces>
-      <Blogs></Blogs>
+      <Blogs data={landingPageData.KnowledgeHub}></Blogs>
       {/* <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} />

@@ -1,0 +1,47 @@
+/* Main container for the About section */
+#about .container {
+    margin-top: 30px;
+  }
+  
+  /* Main content layout for About */
+  .about-main-content {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  /* Left section containing image and text */
+  .about-left-section {
+    display: flex;
+    width: 60%;
+    gap: 40px;
+    align-items: stretch;
+  }
+  
+  /* Styling for text content */
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Watch button styling */
+  .watch-button {
+    background-color: black;
+    color: white;
+    border-color: black;
+    width: 235px;
+    height: 45px;
+  }
+  
+  /* Right section containing text */
+  .about-right-section {
+    width: 50%;
+  }
+  
+  /* General image styling for responsive images */
+  .img-responsive {
+    width: 100%;
+    height: auto;
+  }
+  

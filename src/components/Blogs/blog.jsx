@@ -1,47 +1,23 @@
 import React from "react";
+import "./style.css"; // Import the external CSS file
+
 export const Blog = (props) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        gap: "60px",
-        margin: "20px",
-      }}
-    >
-      <img
-        src={props.image}
-        style={{
-          width: "30%",
-        }}
-      ></img>
-      <div
-        style={{
-          width: "70%",
-          borderBottom: "1px solid black",
-          position: "relative",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            borderBottom: "1px solid black",
-          }}
-        >
-          <p>{props.date}</p>
-          <button>News</button>
+    <div className="blog-container">
+      <img src={props.image} className="blog-image" alt="Blog Thumbnail" />
+      <div className="blog-content">
+        <div className="blog-header">
+          <h5 className="blog-date">{props.date}</h5>
+          <button type="button" className="blog-type">
+            {props.type}
+          </button>
         </div>
-        <p>{props.title}</p>
+        <h3 className="blog-title">{props.title}</h3>
         <img
-          style={{
-            width: "45px",
-            height: "45px",
-            position: "absolute",
-            right: "0",
-            bottom: "20px",
-          }}
           src="img/external_link_buttom.png"
-        ></img>
+          className="blog-link-icon"
+          alt="External Link"
+        />
       </div>
     </div>
   );

@@ -198,6 +198,24 @@
     "header": {
       "title": "Knowledge Hub",
       "content": "Keep up to date with ScienceCreates latest news and articles."
-    }
+    },
+    "blogs": [
+      {
+        "date": "1 Jul 24",
+        "type": "News",
+        "title": "Science Creates members claim >£33m of investment just six months into 2024",
+        "image": "img/vertical-slide-1.png"
+      }, {
+        "date": "24 Jun 24",
+        "type": "News",
+        "title": "SCVC welcomes Catherine Fletcher as new partner",
+        "image": "img/vertical-slide-2.png"
+      }, {
+        "date": "12 Jun 24",
+        "type": "Article",
+        "title": "Glucose Guardians: The Bristol cluster transforming diabetes care",
+        "image": "img/vertical-slide-3.png"
+      }
+    ]
   }
 }

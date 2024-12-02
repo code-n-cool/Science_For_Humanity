@@ -622,6 +622,6 @@ p {
   color: black;
 }
 
-#about, #goals, #ecosystem {
-  margin-top: 30px;
+#about, #goals {
+  margin-top: 40px;
 }

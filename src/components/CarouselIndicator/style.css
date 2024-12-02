@@ -1,28 +1,36 @@
+/* Main Carousel Indicator Container */
 .carousel-indicator {
 }
 
+/* Arrows container styling */
 .carousel-indicator .arrow img {
   width: 11px;
   height: 11px;
   margin: 5px;
+  cursor: pointer;
 }
 
+/* Individual indicator styling */
 .carousel-indicator .indicator {
   width: 65px;
   border-top: 1px solid #d6d4d5;
   color: #d6d4d5;
+  cursor: pointer;
 }
 
+/* Indicator container layout */
 .carousel-indicator .indicators {
   display: flex;
   gap: 20px;
 }
 
+/* Styling for the selected indicator */
 .carousel-indicator .indicator.selected {
   border-color: #5a5657;
   color: #5a5657;
 }
 
+/* White theme styling */
 .carousel-indicator.white .indicator {
   width: 65px;
   border-top: 1px solid #5A5657;

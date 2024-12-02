@@ -1,31 +1,22 @@
+import React from "react";
+import "./style.css"; // Import the CSS file
+
 export const CarouselViewer = (props) => {
-  // return <div></div>
   return (
     <div
+      className="carousel-viewer"
       style={{
         width: props.width,
         height: props.height,
-        overflow: "hidden",
       }}
     >
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          position: "relative",
-        }}
-      >
+      <div className="carousel-container">
         {props.content.map((value, index) => (
           <div
+            className="carousel-item"
             style={{
               width: props.itemWidth,
-              height: "10%",
-              height: "100%",
-              position: "absolute",
-              top: 0,
-              transform: "translateX(-50%)",
               left: `${50 + props.itemDeltaWidth * (index - props.current)}%`,
-              transition: "0.6s",
             }}
             key={index}
           >

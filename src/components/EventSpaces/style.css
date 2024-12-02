@@ -1,0 +1,42 @@
+/* Container for EventSpaces */
+.event-spaces-container {
+    background-color: #231e1f;
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    gap: 200px;
+    padding: 20px;
+  }
+  
+  /* Image Styling */
+  .event-spaces-image {
+    width: 50%;
+  }
+  
+  /* Content Section */
+  .event-spaces-content {
+    width: 50%;
+    position: relative;
+    border-top: 1px solid white;
+  }
+  
+  /* Title Styling */
+  .event-spaces-title {
+    color: white;
+  }
+  
+  /* Description Styling */
+  .event-spaces-description {
+    color: white;
+  }
+  
+  /* Button Styling */
+  .event-spaces-button {
+    position: absolute;
+    bottom: 20px;
+    width: 235px;
+    height: 45px;
+  }
+  

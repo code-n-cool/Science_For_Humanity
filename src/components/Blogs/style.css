@@ -1,0 +1,57 @@
+/* Main container styling */
+.blog-container {
+    display: flex;
+    gap: 60px;
+    margin: 20px;
+  }
+  
+  /* Blog image styling */
+  .blog-image {
+    width: 30%;
+  }
+  
+  /* Blog content container */
+  .blog-content {
+    width: 70%;
+    border-bottom: 1px solid black;
+    position: relative;
+  }
+  
+  /* Header inside blog content */
+  .blog-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+  }
+  
+  /* Blog date styling */
+  .blog-date {
+    margin: 0;
+  }
+  
+  /* Blog type button styling */
+  .blog-type {
+    background-color: black;
+    color: white;
+    border-color: black;
+    width: 53px;
+    height: 33px;
+    cursor: pointer;
+  }
+  
+  /*
+
+  /* Main Blogs container */
+.blogs-container {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    margin-top: 30px;
+  }
+  
+  /* Blog item wrapper */
+  .blog-item {
+    margin-bottom: 20px; /* Add spacing between blog items */
+  }
+  
+  

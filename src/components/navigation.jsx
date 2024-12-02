@@ -1,31 +1,34 @@
 import React from "react";
+import "./navigation.css"; // Import the CSS file for styling
 
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
-        <div style={{
-          display:"flex",
-          justifyContent:"space-between"
-        }}>
-          <div style={{
-            display:"flex",
-            gap:"50px",
-            alignItems:"center"
-          }}>
-            <img src="img/buttons/logo.png" style={{ height: "45px" }}></img>
-            <a style={{color:"white"}} href="http://localhost:3000">Incubators</a>
-            <a style={{color:"white"}} href="http://localhost:3000">VC</a>
-            <a style={{color:"white"}} href="http://localhost:3000">Platform</a>
-            <a style={{color:"white"}} href="http://localhost:3000">Outreach</a>
+        <div className="navbar-content">
+          <div className="navbar-left">
+            <img
+              src="img/buttons/logo.png"
+              alt="Logo"
+              className="logo"
+            />
+            <a href="http://localhost:3000" className="nav-link">Incubators</a>
+            <a href="http://localhost:3000" className="nav-link">VC</a>
+            <a href="http://localhost:3000" className="nav-link">Platform</a>
+            <a href="http://localhost:3000" className="nav-link">Outreach</a>
           </div>
-          <div style={{
-            display:"flex",
-            gap:"20px"
-          }}>
-            <img src="img/buttons/darklight.png" style={{ height: "45px" }}></img>
-            <img src="img/buttons/menu.png" style={{ height: "45px" }}></img>
-            <button className="btn btn-default" style={{width: "150px", height: "45px", borderRadius: "0"}}>Get in Touch</button>
+          <div className="navbar-right">
+            <img
+              src="img/buttons/darklight.png"
+              alt="Darklight Mode"
+              className="icon"
+            />
+            <img
+              src="img/buttons/menu.png"
+              alt="Menu"
+              className="icon"
+            />
+            <button className="btn btn-default">Get in Touch</button>
           </div>
         </div>
       </div>

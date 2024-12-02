@@ -1,42 +1,20 @@
 import React from "react";
+import "./style.css";
 
 export const EventSpaces = (props) => {
   return (
-    <div
-      style={{
-        backgroundColor: "#231E1F",
-        borderRadius: "10px",
-        margin: "20px",
-        overflow: "hidden",
-        position: "relative",
-        display: "flex",
-        gap:"200px",
-        padding:"20px"
-      }}
-    >
-      <img
-        style={{
-          width: "50%",
-        }}
-        src="img/eventspace background.png"
-      ></img>
-      <div
-        style={{
-          width: "50%",
-          position:"relative",
-          borderTop:"1px solid white"
-        }}
-      >
-        <p>A unique and versatile space</p>
-        <p>
+    <div className="event-spaces-container">
+      <img className="event-spaces-image" src="img/eventspace background.png" alt="Event Space" />
+      <div className="event-spaces-content">
+        <h3 className="event-spaces-title">A unique and versatile space</h3>
+        <p className="event-spaces-description">
           Available for hire for members and non-members working in the
           innovation sector. Science Creates has a variety of event spaces that
           can cater for a diverse range of events.
         </p>
-        <button style={{
-            position:"absolute",
-            bottom:"20px"
-        }}>Event Spaces</button>
+        <button className="btn btn-default event-spaces-button" type="button">
+          Event Spaces
+        </button>
       </div>
     </div>
   );

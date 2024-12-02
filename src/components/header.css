@@ -1,0 +1,51 @@
+/* Header container styles */
+#header .intro {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Custom heading styles */
+  .custom-heading {
+    position: absolute;
+    font-size: 100pt;
+  }
+  
+  .title1 {
+    top: 30%;
+    left: 10%;
+  }
+  
+  .title2 {
+    top: 48%;
+    right: 10%;
+  }
+  
+  /* Icon container styles */
+  .icon-container {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-weight: bold;
+  }
+  
+  .icon {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px; /* Add spacing between icons */
+  }
+  
+  /* Text styles */
+  .discovery-text {
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+    font-weight: bold;
+  }
+  
+  .explore-text {
+    position: absolute;
+    bottom: 3%;
+    right: 10%;
+  }
+  
