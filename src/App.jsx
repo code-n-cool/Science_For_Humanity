@@ -35,7 +35,7 @@ const App = () => {
       <About data={landingPageData.About} />
       <Goals data={landingPageData.Goals} />
       <Ecosystem data={landingPageData.Ecosystem} />   
-      <Events></Events> 
+      <Events data={landingPageData.Events}></Events> 
       <EventSpaces></EventSpaces>
       <Blogs data={landingPageData.KnowledgeHub}></Blogs>
       {/* <Services data={landingPageData.Services} />

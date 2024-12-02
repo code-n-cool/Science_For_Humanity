@@ -54,4 +54,10 @@
     margin-bottom: 20px; /* Add spacing between blog items */
   }
   
-  
+  .blog-link-icon {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+  }

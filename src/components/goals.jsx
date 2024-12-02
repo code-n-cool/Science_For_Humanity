@@ -21,14 +21,17 @@ export const Goals = (props) => {
             content={props.data.images.map((image, index) => (
               <img
                 className="carousel-image"
+                style={{
+                  width:"100%"
+                }}
                 key={index}
                 src={image}
                 alt={`Goal image ${index + 1}`}
               />
             ))}
             width="100%"
-            height="30vw"
-            itemWidth="40%"
+            height="36vw"
+            itemWidth="48%"
             itemDeltaWidth={50}
             current={current}
           />

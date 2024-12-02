@@ -12,7 +12,7 @@ export const EventSpaces = (props) => {
           innovation sector. Science Creates has a variety of event spaces that
           can cater for a diverse range of events.
         </p>
-        <button className="btn btn-default event-spaces-button" type="button">
+        <button className="event-spaces-button" type="button">
           Event Spaces
         </button>
       </div>

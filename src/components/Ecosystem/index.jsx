@@ -53,7 +53,7 @@ export const Ecosystem = (props) => {
         </div>
       )}
 
-      <div className="carousel-container">
+      <div className="ecosystem-carousel-container">
         <div className="carousel-indicator-wrapper">
           <CarouselIndicator
             value={current}

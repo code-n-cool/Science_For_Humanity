@@ -36,6 +36,9 @@
   .event-spaces-button {
     position: absolute;
     bottom: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
     width: 235px;
     height: 45px;
   }
