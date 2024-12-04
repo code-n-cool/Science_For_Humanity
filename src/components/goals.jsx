@@ -33,7 +33,7 @@ export const Goals = (props) => {
             height="36vw"
             itemWidth="48%"
             itemDeltaWidth={50}
-            current={current}
+            current={current+1}
           />
         </div>
       )}

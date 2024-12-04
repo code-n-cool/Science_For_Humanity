@@ -12,40 +12,43 @@
   }
   
   .title1 {
-    top: 30%;
-    left: 10%;
+    top: 26.5%;
+    left: 3.2%;
   }
   
   .title2 {
-    top: 48%;
-    right: 10%;
+    top: 44%;
+    right: 4.2%;
   }
   
   /* Icon container styles */
   .icon-container {
     position: absolute;
-    top: 60%;
-    left: 10%;
+    top: 55.2%;
+    left: 3.4%;
     font-weight: bold;
   }
   
   .icon {
     width: 45px;
     height: 45px;
-    margin-right: 10px; /* Add spacing between icons */
+    margin-right: 16px; /* Add spacing between icons */
   }
   
   /* Text styles */
   .discovery-text {
     position: absolute;
-    bottom: 3%;
-    left: 10%;
+    bottom: 11.5%;
+    left: 3.4%;
     font-weight: bold;
+    font-size: 28pt;
   }
   
   .explore-text {
     position: absolute;
-    bottom: 3%;
-    right: 10%;
+    bottom: 9.4%;
+    right: 4.5%;
+    font-size: 13pt;
   }
+  
   

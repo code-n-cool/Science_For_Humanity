@@ -61,3 +61,20 @@
     right: 0px;
     bottom: 20px;
   }
+
+  .blog-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blog-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .blog-container:hover .blog-image {
+    transform: scale(1.05);
+  }

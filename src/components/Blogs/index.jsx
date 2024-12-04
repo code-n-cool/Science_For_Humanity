@@ -1,6 +1,8 @@
 import React from "react";
 import { Blog } from "./blog.jsx"; // Assuming Blog component is in the same folder
 import { SectionHeader } from "../sectionHeader"; // Assuming SectionHeader component is in the parent folder
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./style.css"; // Importing the CSS file
 
 export const Blogs = (props) => {

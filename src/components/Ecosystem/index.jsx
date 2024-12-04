@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { SectionHeader } from "../sectionHeader";
 import { CarouselIndicator } from "../CarouselIndicator";
 import { CarouselViewer } from "../CarouselViewer";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useScrollTrigger } from "react-gsap"; // React-GSAP for ScrollTrigger
 import "./style.css";
+
+// Register GSAP plugins
+gsap.registerPlugin(ScrollTrigger);
 
 const CarouselItem1 = (
   <div className="carousel-item-container">
@@ -24,8 +30,52 @@ const CarouselItem1 = (
 
 export const Ecosystem = (props) => {
   const [current, setCurrent] = useState(0);
+  const sectionRef = useRef(null); // Ref for scroll-trigger animation
+
+  // GSAP Animation on Mount
+  useEffect(() => {
+    const tl = gsap.timeline();
+    tl.fromTo(
+      sectionRef.current,
+      {
+        opacity: 0,
+        y: 50,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        ease: "power3.out",
+      }
+    );
+
+    // Adding ScrollTrigger animations to the carousel items
+    gsap.utils.toArray(".carousel-item-container").forEach((item) => {
+      gsap.fromTo(
+        item,
+        {
+          opacity: 0,
+          y: 100,
+        },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: item,
+            start: "top 80%",
+            end: "top 50%",
+            toggleActions: "play none none reverse",
+            markers: false,
+          },
+        }
+      );
+    });
+  }, []);
+
   return (
-    <div id="ecosystem" className="ecosystem-container">
+    <div id="ecosystem" className="ecosystem-container" ref={sectionRef}>
       {props.data && (
         <div className="ecosystem-content">
           <SectionHeader

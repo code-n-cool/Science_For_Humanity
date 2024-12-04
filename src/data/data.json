@@ -174,7 +174,7 @@
     }
   ],
   "Goals": {
-    "images": ["/img/carousel/img-1.png", "/img/carousel/img-2.png", "/img/carousel/img-3.png"]
+    "images": [ "/img/carousel/img-3.png", "/img/carousel/img-1.png", "/img/carousel/img-2.png", "/img/carousel/img-3.png", "/img/carousel/img-1.png"]
   },
   "Ecosystem": {
     "header": {

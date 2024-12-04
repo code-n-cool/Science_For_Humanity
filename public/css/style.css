@@ -11,7 +11,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roobert", sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -80,7 +80,7 @@ hr {
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roobert", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
@@ -162,7 +162,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roobert", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
@@ -216,9 +216,9 @@ a:focus,
   -o-background-size: cover;
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roobert", sans-serif;
   color: #fff;
-  font-size: 8vw;
+  font-size: 11vw;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -230,8 +230,6 @@ a:focus,
 }
 .intro p {
   color: #fff;
-  font-size: 22px;
-  font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
@@ -294,7 +292,6 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  width: 520px;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
@@ -604,18 +601,19 @@ label {
 
 .section_header {
   display: inline-block;
-  width: 60%;
-  border-top: 1px solid black;
-  font-size: 10pt;
+  width: 72.5%;
+  border-top: 2px solid black;
+  font-size: 13pt;
   vertical-align: top;
   padding-top: 10px;
-  transform: translateY(2px);
+  transform: translateY(20px);
   margin-right: 20px;
 }
 
 h1 {
   font-size: 40pt;
   color: black;
+  vertical-align: top;
 }
 
 p {
